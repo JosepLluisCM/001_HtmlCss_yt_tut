@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+
+<!--
+  Semantic elements: SAME AS DIVS, but with meaning for screen readers
+  <header></header>  for the top bar of pages
+  <nav></nav> for elements that help navigate through the page
+  <main></main> to wrap the main element of the page, in this
+  case the videos
+  <section></section> a part of the main element
+-->
+
+<html>
+
+  <head>
+    <title>JLl Youtube</title>
+
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamb-menu" src="icons/hamburger-menu.svg">
+        <a href="https://www.youtube.com/">
+          <img class="yt-logo" src="icons/youtube-logo.svg">
+        </a>
+      </div>
+      <div class="center-section">
+        <input class="title-searchBar"
+        type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-button">
+          <img class="voice-icon" src="icons/voice-search-icon.svg">
+          <div class="tooltip">Voice Search</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload.svg">
+          <div class="tooltip">Upload</div>
+        </div>
+        <div class="apps-icon-container">
+          <img class="apps-icon" src="icons/youtube-apps.svg">
+          <div class="tooltip">Apps</div>
+        </div>
+        
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications.svg">
+          <div class="notifications-number">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <a href="https://www.youtube.com/@IlloJuan_">
+          <img class="current-profile" src="thumbnails/profile.png">
+        </a>
+      </div>
+    </div>
+    
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </div>
+
+    <div class="videoList-grid">
+
+      <div class="vid">
+        <div class="vid-preview">
+          <a href="https://youtu.be/UeOm22cwhsU">
+            <img class="thumbnail" src="thumbnails/mini_01.png">
+          </a>
+          
+          <div class="vid-time">
+            5:45:32
+          </div>
+        </div>
+        <div class="vid-grid">
+          <div class="logo-container">
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <img class="logo" src="thumbnails/profile.png">
+              <div class="tooltip">
+                <img class="tooltip-logo" src="thumbnails/profile.png">
+                <div class="tooltip-info">
+                  <p class="tooltip-title">IlloJuan</p>
+                  <p class="tooltip-subs">1.58M subscribers</p>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          <div>
+            <a href="https://youtu.be/UeOm22cwhsU">
+              <p class="vid-title">LA AVENTURA DEFINITIVA
+                - The Elder Scrolls V: Skyrim #1
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <p class="vid-author">IlloJuan</p>
+            </a>
+            <p class="vid-stats">1.3M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid">
+        <div class="vid-preview">
+          <a href="https://youtu.be/pSTxSORsJmU">
+            <img class="thumbnail" src="thumbnails/mini_02.png">
+          </a>
+          
+          <div class="vid-time">
+            8:51:24
+          </div>
+        </div>
+        <div class="vid-grid">
+          <div class="logo-container">
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <img class="logo" src="thumbnails/profile.png">
+              <div class="tooltip">
+                <img class="tooltip-logo" src="thumbnails/profile.png">
+                <div class="tooltip-info">
+                  <p class="tooltip-title">IlloJuan</p>
+                  <p class="tooltip-subs">1.58M subscribers</p>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          <div>
+            <a href="https://youtu.be/pSTxSORsJmU">
+              <p class="vid-title">A ROBAR CARTERAS
+                - The Elder Scrolls V: Skyrim #2
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <p class="vid-author">IlloJuan</p>
+            </a>
+            <p class="vid-stats">643K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid">
+        <div class="vid-preview">
+          <a href="https://youtu.be/JVcVlOCkHZE">
+            <img class="thumbnail" src="thumbnails/mini_03.png">
+          </a>
+          
+          <div class="vid-time">
+            8:44:20
+          </div>
+        </div>
+        <div class="vid-grid">
+          <div class="logo-container">
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <img class="logo" src="thumbnails/profile.png">
+              <div class="tooltip">
+                <img class="tooltip-logo" src="thumbnails/profile.png">
+                <div class="tooltip-info">
+                  <p class="tooltip-title">IlloJuan</p>
+                  <p class="tooltip-subs">1.58M subscribers</p>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          <div>
+            <a href="https://youtu.be/JVcVlOCkHZE">
+              <p class="vid-title">FURRODÁH
+                - The Elder Scrolls V: Skyrim #3
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <p class="vid-author">IlloJuan</p>
+            </a>
+            <p class="vid-stats">476K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid">
+        <div class="vid-preview">
+          <a href="https://youtu.be/gs1088rrPBE">
+            <img class="thumbnail" src="thumbnails/mini_04.png">
+          </a>
+          
+          <div class="vid-time">
+            6:25:39
+          </div>
+        </div>
+        <div class="vid-grid">
+          <div class="logo-container">
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <img class="logo" src="thumbnails/profile.png">
+              <div class="tooltip">
+                <img class="tooltip-logo" src="thumbnails/profile.png">
+                <div class="tooltip-info">
+                  <p class="tooltip-title">IlloJuan</p>
+                  <p class="tooltip-subs">1.58M subscribers</p>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          <div>
+            <a href="https://youtu.be/gs1088rrPBE">
+              <p class="vid-title">OBRAS MANOLO, DÍGAME?
+                - The Elder Scrolls V: Skyrim #4
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <p class="vid-author">IlloJuan</p>
+            </a>
+            <p class="vid-stats">400K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid">
+        <div class="vid-preview">
+          <a href="https://youtu.be/iClmiVADJkE">
+            <img class="thumbnail" src="thumbnails/mini_05.png">
+          </a>
+          
+          <div class="vid-time">
+            5:00:15
+          </div>
+        </div>
+        <div class="vid-grid">
+          <div class="logo-container">
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <img class="logo" src="thumbnails/profile.png">
+              <div class="tooltip">
+                <img class="tooltip-logo" src="thumbnails/profile.png">
+                <div class="tooltip-info">
+                  <p class="tooltip-title">IlloJuan</p>
+                  <p class="tooltip-subs">1.58M subscribers</p>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          <div>
+            <a href="https://youtu.be/iClmiVADJkE">
+              <p class="vid-title">FORMANDO UNA FAMILIA 
+                - The Elder Scrolls V: Skyrim #5
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <p class="vid-author">IlloJuan</p>
+            </a>
+            <p class="vid-stats">299K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid">
+        <div class="vid-preview">
+          <a href="https://youtu.be/zpKDSVCnbWY">
+            <img class="thumbnail" src="thumbnails/mini_06.png">
+          </a>
+          
+          <div class="vid-time">
+            10:07:50
+          </div>
+        </div>
+        <div class="vid-grid">
+          <div class="logo-container">
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <img class="logo" src="thumbnails/profile.png">
+              <div class="tooltip">
+                <img class="tooltip-logo" src="thumbnails/profile.png">
+                <div class="tooltip-info">
+                  <p class="tooltip-title">IlloJuan</p>
+                  <p class="tooltip-subs">1.58M subscribers</p>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          <div>
+            <a href="https://youtu.be/zpKDSVCnbWY">
+              <p class="vid-title">EL DIOS DEL SIGILO 
+                - The Elder Scrolls V: Skyrim #6
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <p class="vid-author">IlloJuan</p>
+            </a>
+            <p class="vid-stats">349K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid">
+        <div class="vid-preview">
+          <a href="https://youtu.be/ColHjpUIcjw">
+            <img class="thumbnail" src="thumbnails/mini_07.png">
+          </a>
+          
+          <div class="vid-time">
+            6:34:58
+          </div>
+        </div>
+        <div class="vid-grid">
+          <div class="logo-container">
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <img class="logo" src="thumbnails/profile.png">
+              <div class="tooltip">
+                <img class="tooltip-logo" src="thumbnails/profile.png">
+                <div class="tooltip-info">
+                  <p class="tooltip-title">IlloJuan</p>
+                  <p class="tooltip-subs">1.58M subscribers</p>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          <div>
+            <a href="https://youtu.be/ColHjpUIcjw">
+              <p class="vid-title">EL DRAGÓN QUE HABLA MÁS QUE UN DIPUTAO 
+                 - The Elder Scrolls V: Skyrim #7
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <p class="vid-author">IlloJuan</p>
+            </a>
+            <p class="vid-stats">270K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid">
+        <div class="vid-preview">
+          <a href="https://youtu.be/tx_lbiPqXTc">
+            <img class="thumbnail" src="thumbnails/mini_08.png">
+          </a>
+          
+          <div class="vid-time">
+            7:39:50
+          </div>
+        </div>
+        <div class="vid-grid">
+          <div class="logo-container">
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <img class="logo" src="thumbnails/profile.png">
+              <div class="tooltip">
+                <img class="tooltip-logo" src="thumbnails/profile.png">
+                <div class="tooltip-info">
+                  <p class="tooltip-title">IlloJuan</p>
+                  <p class="tooltip-subs">1.58M subscribers</p>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          <div>
+            <a href="https://youtu.be/tx_lbiPqXTc">
+              <p class="vid-title">DÍA DE EXPLORACIÓN 
+                - The Elder Scrolls V: Skyrim #8
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <p class="vid-author">IlloJuan</p>
+            </a>
+            <p class="vid-stats">225K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid">
+        <div class="vid-preview">
+          <a href="https://youtu.be/aR_0dqLnj2M">
+            <img class="thumbnail" src="thumbnails/mini_09.png">
+          </a>
+          
+          <div class="vid-time">
+            7:30:20
+          </div>
+        </div>
+        <div class="vid-grid">
+          <div class="logo-container">
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <img class="logo" src="thumbnails/profile.png">
+              <div class="tooltip">
+                <img class="tooltip-logo" src="thumbnails/profile.png">
+                <div class="tooltip-info">
+                  <p class="tooltip-title">IlloJuan</p>
+                  <p class="tooltip-subs">1.58M subscribers</p>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          <div>
+            <a href="https://youtu.be/aR_0dqLnj2M">
+              <p class="vid-title">SKIPPY HA VUELTO 
+                - The Elder Scrolls V: Skyrim #9
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <p class="vid-author">IlloJuan</p>
+            </a>
+            <p class="vid-stats">265K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid">
+        <div class="vid-preview">
+          <a href="https://youtu.be/98V-tLnA9d0">
+            <img class="thumbnail" src="thumbnails/mini_10.png">
+          </a>
+          
+          <div class="vid-time">
+            6:26:38
+          </div>
+        </div>
+        <div class="vid-grid">
+          <div class="logo-container">
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <img class="logo" src="thumbnails/profile.png">
+              <div class="tooltip">
+                <img class="tooltip-logo" src="thumbnails/profile.png">
+                <div class="tooltip-info">
+                  <p class="tooltip-title">IlloJuan</p>
+                  <p class="tooltip-subs">1.58M subscribers</p>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          <div>
+            <a href="https://youtu.be/98V-tLnA9d0">
+              <p class="vid-title">LA ARMADURA DE RUISEÑOR 
+                - The Elder Scrolls V: Skyrim #10
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <p class="vid-author">IlloJuan</p>
+            </a>
+            <p class="vid-stats">199K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid">
+        <div class="vid-preview">
+          <a href="https://youtu.be/UeOm22cwhsU">
+            <img class="thumbnail" src="thumbnails/mini_11.png">
+          </a>
+          
+          <div class="vid-time">
+            10:38:16
+          </div>
+        </div>
+        <div class="vid-grid">
+          <div class="logo-container">
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <img class="logo" src="thumbnails/profile.png">
+              <div class="tooltip">
+                <img class="tooltip-logo" src="thumbnails/profile.png">
+                <div class="tooltip-info">
+                  <p class="tooltip-title">IlloJuan</p>
+                  <p class="tooltip-subs">1.58M subscribers</p>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          <div>
+            <a href="https://youtu.be/UeOm22cwhsU">
+              <p class="vid-title">NIVEL 40 
+                - The Elder Scrolls V: Skyrim #11
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <p class="vid-author">IlloJuan</p>
+            </a>
+            <p class="vid-stats">258K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="vid">
+        <div class="vid-preview">
+          <a href="https://youtu.be/GYdJG8jH56k">
+            <img class="thumbnail" src="thumbnails/mini_12.png">
+          </a>
+          
+          <div class="vid-time">
+            4:32:55
+          </div>
+        </div>
+        <div class="vid-grid">
+          <div class="logo-container">
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <img class="logo" src="thumbnails/profile.png">
+              <div class="tooltip">
+                <img class="tooltip-logo" src="thumbnails/profile.png">
+                <div class="tooltip-info">
+                  <p class="tooltip-title">IlloJuan</p>
+                  <p class="tooltip-subs">1.58M subscribers</p>
+                </div>
+              </div>
+            </a>
+            
+          </div>
+          <div>
+            <a href="https://youtu.be/GYdJG8jH56k">
+              <p class="vid-title">ALDUIN CHARCUTERO 
+                - The Elder Scrolls V: Skyrim #12
+              </p>
+            </a>
+            <a href="https://www.youtube.com/@IlloJuan_">
+              <p class="vid-author">IlloJuan</p>
+            </a>
+            <p class="vid-stats">123K views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+
+
+
+        
+  </body>
+</html>
+
+
+
