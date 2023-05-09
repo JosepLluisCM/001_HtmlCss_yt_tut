@@ -9,7 +9,16 @@
   border: 2px solid red;*/
 }
 
-@media (max-width: 750px) {
+
+@media (max-width: 500px) {
+  
+  .videoList-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+ 
+@media (min-width: 501px) and (max-width: 750px) {
   
   .videoList-grid {
     grid-template-columns: 1fr 1fr;
