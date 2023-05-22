@@ -1,2 +1,2 @@
 # LEARNING_01_HtmlCss
-youtube clone
+Youtube Clone for Learning HTML and CSS
